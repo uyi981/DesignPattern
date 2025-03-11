@@ -6,13 +6,13 @@ public class Test {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		FolderComponent shop =  new FolderComponent(new ArrayList<Component>(), "quan ca phe");
-		FolderComponent table1 =  new FolderComponent(new ArrayList<Component>(), "ban1");
-		FolderComponent table2 =  new FolderComponent(new ArrayList<Component>(), "ban2");
-		FolderComponent table3 =  new FolderComponent(new ArrayList<Component>(), "ban3");
-		Leaf traSua = new Leaf("tra sua", 10000);
-		Leaf traSua2 = new Leaf("tra sua", 15000);
-		Leaf traSua3 = new Leaf("tra sua", 20000);
+		CoffeeShop shop =  new CoffeeShop(new ArrayList<Component>(), "quan ca phe");
+		Table table1 =  new Table(new ArrayList<Component>(), "ban1");
+		Table table2 =  new Table(new ArrayList<Component>(), "ban2");
+		Table table3 =  new Table(new ArrayList<Component>(), "ban3");
+		Product traSua = new Product("tra sua", 10000);
+		Product traSua2 = new Product("tra sua", 15000);
+		Product traSua3 = new Product("tra sua", 20000);
 		shop.add(table1);
 		shop.add(table2);
 		shop.add(table3);

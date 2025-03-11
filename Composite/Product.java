@@ -1,11 +1,11 @@
 package Composite;
 
-public class Leaf  implements Component{
+public class Product  implements Component{
 
 	String name;
 	float price;
 	
-	public Leaf(String name, float price) {
+	public Product(String name, float price) {
 		super();
 		this.name = name;
 		this.price = price;

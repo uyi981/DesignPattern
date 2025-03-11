@@ -3,7 +3,7 @@ package Composite;
 import java.util.List;
 
 
-public class FolderComponent implements Component{
+public class Table implements Component{
 	
 	List<Component> components;
 	String name;
@@ -25,7 +25,7 @@ public class FolderComponent implements Component{
 		// TODO Auto-generated method stub
 		return result;
 	}
-	public FolderComponent(List<Component> components,String name) {
+	public Table(List<Component> components,String name) {
 		super();
 		this.components = components;
 		this.name = name;
